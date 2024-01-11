@@ -1,5 +1,10 @@
 This is a **Full Fledged News Application** Designed and Developed by me **@pratyushvatsalshukla.**
-Connect  Instagram - @pratyushvatsalshukla - LinkedIn - @pratyushvatsalshukla
+Connect  : 
+Instagram - @pratyushvatsalshukla 
+LinkedIn - @pratyushvatsalshukla
+
+   -----------------------------------------------------------------------------------------------
+   
 The project is **developed** using **SpringBoot** featuring : 
 1. Eureka Server
 2. Config Server
@@ -9,6 +14,8 @@ The project is **developed** using **SpringBoot** featuring :
 6. CustomExceptionHandling
 7. SpringBoot
 8. Microservices
+
+   -----------------------------------------------------------------------------------------------
    
 The project is **designed** using **React JS**
 1. ReactStrap
@@ -18,7 +25,9 @@ The project is **designed** using **React JS**
 5. Routers from React Router Dom
 6. Axios Api Calling
 7. ReactJS
-
+8. 
+   -----------------------------------------------------------------------------------------------
+   
 For Backend, **Initialise as a Maven Project** and Run the Multimodule project as a **Spring Boot App** in the order mentioned below.
 For Frontend:
 1. intall npm LTS : **https://nodejs.org/en/download**
@@ -30,5 +39,7 @@ For Frontend:
 7. install axios for API Caling : **npm install axios**
 8. Then do npm start.
 
+   -----------------------------------------------------------------------------------------------
+   
 **To Serve The FrontEnd : npm start
 To Run the Test Cases : npm test**
