@@ -1,5 +1,5 @@
 This is a **Full Fledged News Application** Designed and Developed by me **@pratyushvatsalshukla.**
-Connect : Instagram : @pratyushvatsalshukla : LinkedIn : @pratyushvatsalshukla
+Connect  Instagram - @pratyushvatsalshukla - LinkedIn - @pratyushvatsalshukla
 The project is **developed** using **SpringBoot** featuring : 
 1. Eureka Server
 2. Config Server
