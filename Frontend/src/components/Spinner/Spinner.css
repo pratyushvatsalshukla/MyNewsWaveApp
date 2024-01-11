@@ -1,0 +1,14 @@
+
+.spinner{
+    background: linear-gradient(rgb(255, 253, 142), rgb(255, 157, 157));
+    height: 100vh;
+
+}
+.spinner-gif{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 44vh;
+}

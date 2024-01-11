@@ -1,0 +1,67 @@
+.topic-search {
+  margin: 2% 30% 0% 2%;
+  padding: 0.5%;
+}
+.search-input {
+  margin: 2% 5% 0% 2%;
+}
+.span-for-img {
+  margin: 2% 1% 0% 22%;
+  padding: 0.5%;
+
+  font-size: 150%;
+  font-family: monospace;
+  /* overflow: hidden; */
+}
+.cards-main {
+  background-color: white;
+  padding: 1%;
+  margin: 1%;
+  /* width: 18rem; */
+  box-shadow: 0px 0 20px 0px #ff9d9d;
+}
+.logo-ud {
+  margin: 2% 0% 2% -83%;
+  padding: 0;
+  height: 100%;
+  width: 212%;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+/* .d-flex{
+    margin-top: 1% ;
+    margin-left: 5%;
+
+   }  */
+
+.card-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-container-ud {
+  background: linear-gradient(rgb(255, 253, 142), rgb(255, 157, 157));
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100% !important ;
+  margin-bottom: 10vh;
+}
+.fake-container {
+  /* background: linear-gradient(rgb(255, 253, 142), rgb(255, 157, 157));
+    background-size:contain ;
+    background-repeat: no-repeat; */
+  height: 100vh;
+}
+.card-image-top {
+  border-radius: 10px;
+}
+.pagination-btn {
+  margin: 0 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}

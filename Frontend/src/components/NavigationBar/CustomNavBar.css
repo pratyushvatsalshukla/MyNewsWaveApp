@@ -1,0 +1,44 @@
+.loginAndSignup{
+  /* overflow: hidden; */
+        /* float: right; */
+}
+.NavHeader{
+  font-family: 'Courier New', monospace;
+}
+.nav-item-link {
+  cursor:pointer;
+}
+.nav-item-link-del:hover{
+  background: rgb(252, 89, 89);
+}
+.nav-item{
+  cursor: default;
+}
+.logo{
+  margin: 0;
+  padding: 0;
+  height: 34%;
+  width: 8%;
+}
+.logo-text{
+  font-family: monospace;
+}
+.modal-style{
+  background-color: none;
+}
+.modal-content{
+  background: linear-gradient(159deg, rgb(226 241 165), #000000bf);
+  position: absolute;
+   top: 50%;
+  transform: translateY(37%);
+
+} 
+.modal-footer{
+justify-content: center;
+color: white;
+}
+/* .model-header{
+  color: black;
+transform: translate(30%, 0%);
+} */
+

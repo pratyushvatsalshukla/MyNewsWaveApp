@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  /* background: linear-gradient(to right, #3498db, #2c3e50); */
+
+  margin: 0;
+}
+
+.main-container-wishlist {
+  min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+  display: flex;
+  background: linear-gradient(rgb(255, 253, 142), rgb(255, 157, 157));
+  flex-direction: column;
+  
+}
+
+.wishlist-container-div {
+  flex: 1;
+  margin-bottom: 10vh  /* Make this container take up the remaining space */
+  /* padding-bottom: 20px; Adjust as needed to ensure space for the footer */
+}
+
+/* Add these styles to your existing CSS file if they are not present */
+.marquee {
+  font-size: 250%;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  /* background: linear-gradient(to right, #3498db, #2c3e50); */
+  /* color: white; */
+  /* padding: 10px; */
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+

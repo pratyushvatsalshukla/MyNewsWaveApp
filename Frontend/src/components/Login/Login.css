@@ -1,0 +1,15 @@
+.login-form{
+    margin: 3.5% 35% 25% 35%
+}
+
+h1{
+    margin-top: 4%;
+    padding-top: 4%;
+}
+.main-container-login{
+    background: linear-gradient(rgb(255, 253, 142), rgb(255, 157, 157));
+    background-size:contain ;
+    background-repeat: no-repeat;
+    height: 100vh !important; 
+   }
+

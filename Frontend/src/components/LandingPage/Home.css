@@ -1,0 +1,37 @@
+.type-animation {
+  font-family: monospace;
+  /* margin: 3%; */
+  /* padding: 1%; */
+  /* font-size: 1.75em; */
+  font-weight: bold;
+  /* box-shadow: 0px 0px 20px 0px #ffb996; */
+  /* border-radius: 3%; */
+  /* display: inline-block; */
+  /* margin-bottom: 10%; */
+
+}
+/* .index-module_type__E-SaG {
+  margin-bottom: 5% ;
+
+} */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:85vh !important ;
+   /* Adjust as needed */
+  font-size: 200%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  /* margin-bottom: -2%; */
+}
+  .main-container-home{
+    background: linear-gradient(rgb(255, 253, 142), rgb(255, 157, 157));
+    background-size:contain ;
+    background-repeat: no-repeat;
+    height: 100%; 
+   }
+
+/* .RegInfo{
+    text-align: center;
+} */
