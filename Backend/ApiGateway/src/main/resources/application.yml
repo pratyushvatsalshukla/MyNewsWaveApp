@@ -1,0 +1,44 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: User-Service
+          uri: http://localhost:8084
+          predicates:
+            - Path=/newsWave/**
+        - id: News-Service
+          uri: http://localhost:8083
+          predicates:
+            - Path=/newsService/**
+        - id: Authentication-Service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/authorization/**
+#        - id: Wishlist-Service
+#          uri: http://localhost:8085
+#          predicates:
+#            - Path=/wishlist/**
+      #       - id : id of another microservices
+      #To Avoid Cross Origin Error
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Controller-Allow-Credentials
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+  application:
+    name: api-Gateway
+  main:
+    web-application-type:
+      reactive
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+
