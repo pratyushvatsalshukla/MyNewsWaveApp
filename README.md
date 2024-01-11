@@ -1,3 +1,6 @@
+-----------------------------------------------------------------------------------------------
+
+
 This is a **Full Fledged News Application** Designed and Developed by me **@pratyushvatsalshukla.**
 Connect  : 
 Instagram - @pratyushvatsalshukla 
@@ -29,7 +32,19 @@ The project is **designed** using **React JS**
 -----------------------------------------------------------------------------------------------
    
 For Backend, **Initialise as a Maven Project** and Run the Multimodule project as a **Spring Boot App** in the order mentioned below.
-For Frontend:
+
+**For Backend :** 
+
+1. Run Eureka Server : Port 8761
+2. Run Config Server : Port 8081 
+3. Run API Gateway : Port 8080
+4. Run Authentication Service : Port 8082
+5. Run NewsService Service : Port 8083
+6. Run User NewsWave Service : Port 8084
+7. Run Wishlist Service : Port 8085
+   
+**For Frontend:**
+
 1. intall npm LTS : **https://nodejs.org/en/download**
 2. Install Bootstrap for responsive compoenents : **npm i bootstrap@5.3.2**
 3. install reactstrap for responsive compoenents : **npm install reactstrap react react-dom**
@@ -39,7 +54,19 @@ For Frontend:
 7. install axios for API Caling : **npm install axios**
 8. Then do npm start.
 
+**For Backend**
+
+-> Install Mysql Workbench or anyother MySQL Server
+
+**Postman**
+
+1. GET/POST/PUT/DELETE/PATCH + http://localhost:{portNumber}/ControllerEndPoints
+
+
 -----------------------------------------------------------------------------------------------
    
 **To Serve The FrontEnd : npm start
 To Run the Test Cases : npm test**
+
+-----------------------------------------------------------------------------------------------
+
