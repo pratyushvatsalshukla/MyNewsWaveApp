@@ -10,7 +10,7 @@ let myAxios ;
 const createAxios = () => {
     token =getCurrentUserDetail().token ;
     myAxios=axios.create({
-        baseURL: "http://13.200.45.5:8085",
+        baseURL: "http://localhost:8085",
         headers: {
           Authorization: `Bearer ${token}`
         }
